@@ -4,6 +4,12 @@ repository_name=$1
 email_address=$2
 dir=$3
 
+if [ -z "$repository_name" ] ||  [ -z "$email_address" ] || [ -z "$dir" ]
+then
+	echo "Error: 3 mandatory arguments are required: repository_name email_address dir"
+	exit 1;
+fi
+
 mkdir -p $dir
 touch -a "$dir"/config
 
