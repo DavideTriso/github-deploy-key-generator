@@ -21,5 +21,5 @@ echo "======================================================="
 echo "Done! The public deploy key for your repository is:"
 echo $(cat "$dir"/"$repository_name"_deploy-key.pub)
 echo "Add it to your GitHub repository and then clone it with following command:"
-echo git clone git@"$repository_name":TotalcomNetwork/"$repository_name".git
+echo git clone git@"$repository_name":[github-account-name]/"$repository_name".git
 echo "======================================================="
