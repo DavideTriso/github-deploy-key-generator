@@ -41,5 +41,5 @@ The scripts accepts two required parameters:
 E.g.: 
 
 ```bash
-./revoke-deploy-key github-deploy-key-generator "/root/.ssh/"
+./revoke-deploy-key.sh github-deploy-key-generator "/root/.ssh/"
 ```
