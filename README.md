@@ -21,7 +21,7 @@ The script accepts three required arguments:
 E.g.: 
 
 ```bash
-./generate-deploy-key github-deploy-key-generator davidetrisolini@yahoo.it "/root/.ssh/"
+./generate-deploy-key.sh github-deploy-key-generator davidetrisolini@yahoo.it "/root/.ssh/"
 ```
 
 ## Revoke a GitHub deploy key
